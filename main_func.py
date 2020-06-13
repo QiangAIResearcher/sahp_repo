@@ -208,6 +208,7 @@ if __name__ == '__main__':
     else:
         exit()
 
+
     if args.save_model:
         # Model file dump
         SAVED_MODELS_PATH = os.path.abspath('saved_models')
