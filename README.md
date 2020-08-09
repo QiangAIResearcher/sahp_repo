@@ -1,6 +1,6 @@
 # SAHP
 
-This is the repository for the self-attentive Hawkes process where self-attention is used to adapt the intensity function of Hawkes process.
+This is the repository for the "Self-Attentive Hawkes Process" paper where self-attention is used to adapt the intensity function of Hawkes process.
 
 ## Dataset
 The realword datasets are available on this [Google drive] (https://drive.google.com/drive/folders/0BwqmV0EcoUc8UklIR1BKV25YR1U) while the synthetic dataset is at this [link] (https://drive.google.com/file/d/1lRUIJx5UIPMx4TMwKy6GiAiP-k2vwvDc/view?usp=sharing). To run the model, you should download them to
@@ -20,3 +20,13 @@ The Python version should be at least 3.5 and the torch version can be 0.4.1
 `utils` contains utility functions
 
 To run the model: python main_func.py
+
+## Citation
+```
+@article{zhang2019self,
+  title={Self-attentive Hawkes processes},
+  author={Zhang, Qiang and Lipani, Aldo and Kirnap, Omer and Yilmaz, Emine},
+  journal={arXiv preprint arXiv:1907.07561},
+  year={2019}
+}
+```
